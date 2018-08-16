@@ -1,0 +1,1133 @@
+@media screen and (max-width: 1200px) {
+    /* ====== HEADER START ======= */
+    header .menu .nav ul{
+        margin-right: 0;
+    }
+    header .menu .login{
+        margin-left: 0;
+    }
+    header .menu.sticky{
+        padding: 16px 44px;
+    }
+     /* ====== HEADER END ======= */
+
+     /* ====== OPPORTUNITY START ======= */
+    .opportunity .text h3{
+        font-size: 26px;
+    }
+    .opportunity .text p{
+        font-size: 14px;
+    }
+    .opportunity .text ul li a{
+        font-size: 12px;
+    }
+     /* ====== OPPORTUNITY END ======= */
+     
+     /* ====== BUSINESS START ======= */
+    .business{
+        background-position-y: 95%;
+        background-size: 51.4%;
+     }
+    .business .text {
+        padding-top: 70px;
+    }
+    .business .text .back-count {
+        right: 39%;
+    }
+    .business .right-text .back-count {
+        right: 24%;
+    }
+     /* ====== BUSINESS END ======= */
+
+     /* ====== COMPANY START ======= */
+    .company .users{
+        width: auto;
+    }
+    .company .users>p{
+        font-size: 14px;
+    }
+    .company .owl-theme .owl-nav{
+        padding-right: 0;
+    }
+     /* ====== COMPANY END ======= */
+
+    
+
+}
+@media screen and (max-width: 1100px){
+
+     /* ====== OPPORTUNITY START ======= */
+    .opportunity{
+        background-position-y: 50px;
+    }
+     /* ====== OPPORTUNITY END ======= */
+
+     /* ====== BUSINESS START ======= */
+    .business .text {
+        padding-left: 80px;
+        padding-top: 70px;
+    }
+    .business .text p{
+        width: 100%;
+        font-size: 19px;
+    }
+    .business button {
+        transform: translate(81px, -129px);
+    }
+     /* ====== BUSINESS END ======= */
+
+     /* ====== PACKETS START ======= */
+    .packets{
+        background-position-y: 70%;
+    }
+     /* ====== PACKETS END ======= */
+
+}
+@media screen and (max-width: 991px){
+
+    /* ====== HEADER START ======= */
+    .container991{
+        width: 100%;
+    }
+    header .menu .resp-nav{
+        width: 81%;
+    }
+    header .menu .nav li a {
+        margin-right: 15px;
+        font-size: 13px;
+    }
+    header .menu .login button {
+        width: 80px;
+        margin-right: 7px;
+        font-size: 13px;
+    }
+    header .menu .login button:nth-child(2) {
+        width: 180px;
+    }  
+    header .check-button h1{
+        width: 68%;
+        font-size: 29px;
+    }
+    header .check-button img{
+        max-width:100%;
+    }
+    header .menu.sticky{
+        padding: 16px 19px;
+    }
+    /* ====== HEADER END ======= */
+
+    /* ====== SECURITY START ======= */
+    .security .inner-pad{
+        padding: 0;
+    }
+    .security .center-div{
+        margin: 10px;
+    }
+    .security .center-div h3{
+        font-size: 20px;
+    }
+    .security .center-div p{
+        font-size: 14px;
+    }
+    /* ====== SECURITY END ======= */
+
+    /* ====== OPPORTUNITY START ======= */
+    .opportunity {
+        background-position-y: 72px;
+        background-size: 53%;
+    }
+    .opportunity .text h3 {
+        font-size: 21px;
+        margin: 0 0 9px;
+    }
+    .opportunity .text p {
+        font-size: 13px;
+    }
+    .opportunity .text button, .business button {
+        margin-top: 9px;
+    }
+    .opportunity button, .business button, .company .back button {
+        height: 37px;
+        width: 129px;
+    }
+    .opportunity .text {
+        padding-left: 23px;
+    }
+    .opportunity .text ul li {
+        padding: 2px 5px 2px;
+    }
+    .opportunity .image{
+        margin-top: 35px;
+    }
+    /* ====== OPPORTUNITY END ======= */
+
+    /* ====== BUSINESS START ======= */
+    .business {
+        background-position-y: 87%;
+    }
+    .business>h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .business .text {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .business .text .back-count {
+        right: 33%;
+    }
+    .business .right-text .back-count {
+        right: 34%;
+    }
+    .business .text h5 {
+        font-size: 20px;
+    }
+    .business .text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .business button {
+        transform: translate(19px, -129px);
+    }
+    /* ====== BUSINESS END ======= */
+
+     /* ====== SMARTFON START ======= */
+    .smartfon .txt {
+        padding-top: 47px;
+        padding-left: 0;
+    }
+    .smartfon .txt h4{
+        font-size: 26px;
+    }
+    .smartfon .txt p {
+        width: auto;
+        font-size: 14px;
+    }
+    /* ====== SMARTFON END ======= */
+
+    /* ====== PACKETS START ======= */
+    .packets {
+        background-position-y: 11%;
+        padding-bottom: 0;
+    }
+    .packets .center-display{
+        margin-bottom: 20px;
+    }
+    /* ====== PACKETS END ======= */
+
+    /* ====== COMPANY START ======= */
+    .company h2 {
+        padding: 77px 29px 0;
+        font-size: 21px;
+    }
+    .company .back{
+        padding: 23px 20px;
+    }
+    .company .back h5{
+        font-size: 19px;
+    }
+    .company .back h3{
+        font-size: 26px;
+    }
+    .company .back p{
+        font-size: 12px;
+    }
+    .company .back input{
+        width: 190px;
+        font-size: 13px;
+    }
+    .opportunity button, .business button, .company .back button{
+        height: 39px;
+        width: 115px;
+        font-size: 13px;
+    }
+    /* ====== COMPANY END ======= */
+
+    /* ====== FOOTER START ======= */
+    footer .display-between h3{
+        font-size: 18px;
+    }
+    footer .display-between ul a{
+        font-size: 13px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+    /* ====== FOOTER END ======= */
+}
+
+@media screen and (max-width: 767px){
+
+    .security .owl-dots .owl-dot:nth-child(1) span,
+    .security .owl-dots .owl-dot:nth-child(3) span,
+    .company .owl-dots .owl-dot:nth-child(1) span,
+    .company .owl-dots .owl-dot:nth-child(3) span{
+        width: 6px;
+        height: 4px;
+        background: #E2E2E2;
+        border-radius: 1px;
+    }   
+    .security .owl-dots .owl-dot:nth-child(2) span,
+    .company .owl-dots .owl-dot:nth-child(2) span{
+        width: 53px;
+        height: 4px;
+    }
+    .security .owl-dots .active span,
+    .company .owl-dots .active span,
+    .security .owl-dots .owl-dot span:hover,
+    .company .owl-dots .owl-dot span:hover{
+        background: #0FD6AB !important;
+    }
+
+    /* ====== HEADER START ======= */
+    header .menu .resp-nav{
+        display: none;
+    }
+    header .menu .resp-menu svg{
+        stroke: #fff;
+    }
+    header .menu.sticky .resp-menu svg{
+        stroke: #000000;
+    }
+    header .mobil-menu {
+        display: block;
+        background: #fff;
+        position: fixed;
+        z-index: -5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transition: .2s ease-in;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header .mobil-menu.active{
+        z-index: 5;
+        opacity: 1;
+    }
+    header .mobil-menu .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 19px 25px;
+    }
+    header .mobil-menu .logo svg{
+        width: 115px;
+        height: 27px;
+    }
+    header .mobil-menu .registr{
+        margin-top: 49px;
+        display: flex;
+        justify-content: center;
+    }
+    header .mobil-menu .registr button{
+        width: 50%;
+        height: 158px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07);
+        border-radius: 4px;
+        border: none;
+        margin: 0 10px;
+        transition: .2s ease-in;
+        overflow: hidden;
+    }
+    header .mobil-menu .registr button:hover{
+        transform: scale(1.03);
+    }
+    header .mobil-menu .registr a{
+        font-weight: 500;
+        line-height: normal;
+        font-size: 24px;
+        color: #11273F;
+        text-decoration: none;
+    }
+    header .mobil-menu .registr p{
+        margin-top: 16px;
+    }
+    header .mobil-menu .line{
+        padding: 36px 16px 35px;
+        text-align: right;
+        position: relative;
+    }
+    header .mobil-menu .line::before{
+        content: '';
+        position: absolute;
+        width: 74%;
+        height: 2px;
+        background: #E2E2E2;
+        left: 15px;
+        bottom: 44px;
+    }
+    header .mobil-menu ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0 25px 25px;
+    }
+    header .mobil-menu ul li{
+        margin-bottom: 20px;
+    }
+    header .mobil-menu  ul a{
+        font-weight: 500;
+        line-height: normal;
+        font-size: 24px;
+        color: #11273F;
+        text-decoration: none;
+    }
+    header .mobil-menu .lang {
+        display: flex;
+    }
+    header .mobil-menu .lang button{
+        width: 33.33%;
+        height: 74px;
+        border: none;
+        background: #11273F;
+        transition: .2s ease-in;
+    }
+    header .mobil-menu .lang button:hover{
+        background: #3970F2;
+    }
+    header .mobil-menu .lang .active{
+        background: #3970F2;
+    }
+    header .mobil-menu .lang button a{
+        font-weight: bold;
+        line-height: normal;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-decoration:none;
+    }
+    header .mobil-menu .close {
+        width: 24px;
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        opacity: 1;
+        transform: rotate(-90deg);
+        padding: 12px 0 16px;
+    }
+    header .mobil-menu .close:hover::before, 
+    header .mobil-menu .close:hover::after {
+        background: #0FD6AB;
+        transform: rotate(64deg);
+    }
+    header .mobil-menu .close:hover::after{
+        transform: rotate(156deg);
+    }
+    header .mobil-menu .close::before, 
+    header .mobil-menu .close::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #D6D6D6;
+        height: 4px;
+        border-radius: 120% 0;
+        transition: 0.3s linear;
+    }
+    header .mobil-menu  .close::before {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    header .mobil-menu .close::after {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+ 
+    header .menu .resp-menu{
+        display: block;
+    }
+    header .feedback, header .discuss{
+        display: none;
+    }
+    /* ====== HEADER END ======= */
+
+    /* ====== OPPORTUNITY START ======= */
+    .opportunity .back-resp{
+        background: none;
+        padding: 0;
+    }
+    .opportunity .inner-pad {
+        padding-top: 91px;
+    }
+    .opportunity .outer-margin .image{
+        display: none;
+    }
+    .opportunity .owl-carousel.owl-loaded{
+        display: block;
+    }
+    .opportunity .owl-carousel .owl-stage-outer{
+        padding: 17px 0;
+    }
+
+    /* Imkanlar */
+    .opportunity .center + .active .mobil-calls {
+        background: #3970F2;
+    }
+    .opportunity .center + .active .mobil-calls svg,
+    .opportunity .center + .active .mobil-calls p{
+        color: #fff;
+        fill: #fff;
+    }
+    .opportunity .mobil-calls svg,
+    .opportunity .mobil-calls p{
+        color: #3970F2; 
+        fill:  #3970F2;
+    }
+    .opportunity .mobil-calls{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding: 15px 16px 1px;
+    }
+    .opportunity .owl-carousel .mobil-calls svg{
+        width: 52px ;
+        height: 52px;
+    }
+    .opportunity .owl-carousel .mobil-calls p{
+        font-weight: 500;
+        margin: 10px 0 10px;
+    }
+
+    /* Imkanlar */
+
+    .opportunity .text{
+        padding: 2px 64px;
+    }
+    .opportunity .text h3{
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+    .opportunity .text .mobile-img{
+        display: block;
+        margin: 0 auto;
+    }
+    .opportunity .text p{
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .opportunity .mobil-text h3{
+        text-align: left;
+    }
+    .opportunity .text .calls{
+        display: none;
+    }
+    .opportunity .text img{     
+        display: block;
+        max-width: 100%;
+    }
+    .opportunity .image img{
+        display: none;
+    }
+    .opportunity .text button{
+        width: 100%;
+    }
+    /* ====== OPPORTUNITY END ======= */
+
+    /* ====== BUSINESS START ======= */
+    .business{
+        background: none;
+    }
+    .business .mobil-reverse-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .business>h3{
+        font-size: 28px;
+    }
+    .business .text h5{
+        display: none;
+    }
+    .business .mobile-btns{
+        display: flex;
+        justify-content: space-around;
+    }
+    .business .mobile-btns button{
+        display: block;
+        transform: translate(0,0);
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        width: 110px;
+        height: 70px;
+        font-size: 48px;
+        font-weight: 600;
+        color: #3970F2;
+    }
+    .business .mobile-btns button.active{
+        background: #3970F2;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        color: #FFFFFF;
+    }
+    .business .mobil-row.active .col-md-6{
+        display: block;
+    }
+    .business .mobil-row .col-md-6{
+        display: none;
+    }
+    .business button {
+        transform: translate(0);
+        margin-left: 19px;
+    }
+    .business .text{
+        padding-top: 0;
+    }
+    .business .text .back-count {
+        display: none;
+    }
+    .business .text p{
+        margin: 0;
+    }
+    .business .photos img{
+        margin-top: 28px;
+    }
+    .business .photos .absolute-right, .business .photos .absolute-left{
+        max-width: 90%;
+        bottom: 9px;
+        left: 33px;
+    }
+    /* ====== BUSINESS END ======= */
+
+    /* ====== SMARTFON START ======= */
+    .smartfon img {
+        max-width: 66%;
+        display: block;
+        margin: 0 auto;
+    }
+    .smartfon .txt img{
+        max-width: 100%;
+    }
+    .smartfon .mobil-show{
+        display: block;
+        font-size: 28px;
+    }
+    .smartfon .txt{
+        padding: 0 75px;
+    }
+    .smartfon .txt h4{
+        display:  none;
+    }
+    /* ====== BUSINESS END ======= */
+
+    /* ====== PACKETS START ======= */
+    .packets{
+        background: none;
+    }
+    .packets>h3{
+        display: none;
+    }
+    .packets .full-packets{
+        display: none;
+    }
+    .packets .responsive-packets{
+        display: block;
+    }
+    .packets .responsive-packets>h3{
+        display: block;
+        margin-left: 64px;
+        font-weight: 900;
+        font-size: 28px;
+        color: #11273F;
+        margin-bottom: 27px;
+    }
+    .packets .owl-item.active{
+        padding: 4px 67px;
+    }
+    .packets .item{
+        padding-top: 17px;
+        box-shadow: 0 0 27px rgba(0,0,0,.05);
+        position: relative;
+    }
+    .packets .item svg{
+        fill: #0FD6AB;
+    }
+    .packets .item .responsive-display{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 39px;
+    }
+    .packets .item .responsive-display .mobil-flex-between{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .packets .item .responsive-display .ticket{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        padding: 5px 2px 4px 16px;
+        font-weight: 500;
+        background: #3970F2;
+        border-radius: 0px 4px;
+        width: 129px;
+        height: 30px;
+    }
+    .packets .item .responsive-display h3{
+        font-weight: bold;
+        color: #11273F;
+    }
+    .packets .item .responsive-display span{
+        font-size: 14px;
+        color: #666666;
+    }
+    .packets .item .responsive-display p{
+        font-size: 14px;
+        font-weight: 600;
+        color: #666666;
+        width: 210px;
+        border-bottom: 1px solid  #E2E2E2;
+        padding: 3px 0 15px;
+    }
+    .packets .item .responsive-display h6{
+        font-size: 16px;
+        color: #11273F;
+        text-align: right;
+    }
+    .packets .item .responsive-display h4{
+        font-weight: 900;
+        font-size: 72px;
+        margin: 0;
+        color: #11273F;
+    }
+    .packets .item .responsive-display h4 sub{
+        bottom: 0;
+        font-size: 19px;
+    }
+    .packets .item ul{
+        font-size: 12px;
+        color: #666666;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+        margin-left: 39px;
+    }
+    .packets .item ul li{
+        margin-bottom:3px;
+    }
+    .packets .item ul img{
+        width: auto;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .packets .item button{
+        border: none;
+        width: 100%;
+        background: #0FD6AB;
+        height: 45px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #fff;
+        font-weight: 500;
+    }
+    /* ====== PACKETS END ======= */
+
+    /* ====== COMPANY START ======= */
+    .company {
+        padding-top: 0;
+    }
+    .company .owl-theme .owl-nav{
+        display: none;
+    }
+    .company .owl-theme .owl-dots{
+        display: block;
+    }
+    .company h2 {
+        font-size: 28px;
+    }
+    .company img{
+        width: auto;
+        display: block;
+        margin: 0  auto;
+    }
+    .company .users .user-img img{
+        margin:0 19px 0 0;
+    }
+    .company .back{
+        background: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding: 19px 40px; 
+    }
+    .company .back input{
+        display: block;
+        margin-bottom: 15px;
+        width: 299px;
+        height: 45px;
+    }
+    .company .back button{
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    /* ====== COMPANY END ======= */
+
+    /* ====== FOOTER START ======= */
+    footer{
+        padding: 23px 0 12px;
+    }
+    footer .display-between{
+        display: none;
+    }
+    footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+    /* ====== FOOTER END ======= */
+}
+
+@media screen and (max-width: 600px){
+
+    /* ====== HEADER START ======= */
+    header{
+        background: url(../images/responsive/Vector.png);
+        background-repeat: no-repeat;
+        background-position: 50% 91%;
+        background-size: cover;
+    }
+    header .check-button{
+        margin-bottom: 70px;
+    }
+    header .check-button h1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header .check-button .email input[type="text"],header .check-button .email input[type="button"]{
+        width: 100%;
+        margin: 5px 0;
+    }
+    header .check-button img{
+        display: none;
+    }
+    header .check-button .mobil-img{
+        display: block;
+    }
+    header .mobil-menu .line::before{
+        width: 66%;
+    }
+    /* ====== HEADER END ======= */
+
+    /* ====== SECURITY START ======= */
+    .security{
+        margin-top: 0;
+    }
+    .security .center-div{
+        padding: 30px 0;
+    }
+    /* ====== SECURITY END ======= */
+
+    /* ====== OPPORTUNITY START ======= */
+    .opportunity .text{
+        padding: 2px 25px;
+    }
+    .opportunity .mobil-calls{
+        padding: 15px 11px 1px;
+    }
+    .opportunity .owl-carousel .mobil-calls svg {
+        width: 41px;
+        height: 41px;
+    }
+    /* ====== OPPORTUNITY END ======= */
+
+    /* ====== BUSINESS START ======= */
+    .business .photos .absolute-right, .business .photos .absolute-left{
+        max-width: 82%;
+        bottom: 9px;
+        left: 49px;
+    }
+    /* ====== BUSINESS END ======= */
+
+    /* ====== SMARTFON START ======= */
+    .smartfon .txt {
+        padding: 0 25px;
+    }
+    /* ====== SMARTFON END ======= */
+
+    /* ====== PACKETS START ======= */
+    .packets .owl-item.active {
+        padding: 4px 47px;
+    }
+    .packets .item .responsive-display{
+        padding: 0 18px;
+    }
+    .packets .item .responsive-display h3{
+        font-size: 20px;
+        margin: 8px 0 2px;
+    }
+    .packets .item .responsive-display span{
+        font-size: 13px;
+    }
+    .packets .item .responsive-display p{
+        font-size: 13px;
+        width: 124px;
+    }
+    .packets .item .responsive-display .mobil-flex-between{
+        margin-left: 37px;
+    }
+    .packets .item .responsive-display h6{
+        font-size: 14px;
+    }
+    .packets .item .responsive-display h4{
+        font-size: 55px;
+    }
+    .packets .item .responsive-display h4 sub{
+        font-size: 16px;
+    }
+    .packets .item ul{
+        margin-left: 15px;
+    }
+    /* ====== PACKETS END ======= */
+
+    /* ====== COMPANY START ======= */
+    .company h2 {
+        margin: 0;
+    }
+    .company img{
+        max-width: 100%;
+    }
+    .company .users {
+        padding: 14px 17px;
+    }
+    .company .users>p{
+        font-size: 13px;
+    }
+    /* ====== COMPANY END ======= */
+}
+
+@media screen and (max-width: 450px){
+    
+   
+    .company h2,.smartfon .mobil-show,
+    .business>h3,
+    .opportunity .text h3 {
+        font-size: 23px;
+    }
+
+    /* ====== HEADER START ======= */
+    header{
+        background-position: 50% 100%;
+    }
+    header .menu{
+        margin-bottom: 0;
+    }
+    header .menu .resp-nav,
+    header .menu .nav ul{
+        align-items: flex-start;
+    }
+    header .menu .login select{
+        margin: 0;
+    }
+    header .check-button{
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+    header .check-button .email{
+        width: 100%;
+    }
+    header .check-button h1{
+        text-align: left;
+        margin-top: 43px;
+    }
+    header .check-button img{
+        margin: 0 auto;
+    }
+    header .mobil-menu .line::before{
+        width: 60%;
+    }
+    /* ====== HEADER END ======= */
+
+    /* ====== SECURITY START ======= */
+    .security .center-div {
+        padding: 15px 0;
+    }
+    .security .inner-pad{
+        margin: 0 2px;
+    }
+    .security .center-div{
+        margin: 0;
+    }
+    /* ====== SECURITY END ======= */
+
+    /* ====== OPPORTUNITY START ======= */
+    .opportunity .inner-pad {
+        padding-top: 43px;
+    }
+    .opportunity .text {
+        padding: 2px 0;
+    }
+    .opportunity .mobil-calls {
+        width: 85%;
+        margin: 0 -90px;
+    }
+    /* ====== OPPORTUNITY END ======= */
+
+    /* ====== BUSINESS START ======= */
+    .business {
+        margin-top: 63px;
+    }       
+    .business .mobile-btns button{
+        width: 94px;
+        height: 67px;
+    }
+    .business .text {
+        padding-left: 0 !important;
+    }
+    .business .text p{
+        font-size: 14px;
+    }
+    .business button{
+        margin-left: 0;
+        width: 100%;
+    }
+    .business .photos .absolute-right, .business .photos .absolute-left{
+        max-width: 87%;
+        bottom: 9px;
+        left: 22px;
+    }
+    /* ====== BUSINESS END ======= */
+
+    /* ====== SMARTFON START ======= */
+    .smartfon {
+        padding-top: 10px;
+    }
+    .smartfon .txt{
+        padding: 0;
+    }
+    /* ====== SMARTFON END ======= */
+
+    /* ====== PACKETS START ======= */
+    .packets .responsive-packets>h3 {
+        margin-left: 22px;
+        font-size: 23px;
+        margin-bottom: 13px;
+    }
+    .packets .item .responsive-display .mobil-flex-between{
+        margin-left: 23px;
+    }
+    .packets .owl-item.active {
+        padding: 4px 17px;
+    }
+    /* ====== PACKETS END ======= */
+
+    /* ====== COMPANY START ======= */
+    .company .outer-pad h2{
+        padding: 0 0 16px;
+    }
+    .company .users {
+        padding: 14px 10px;
+    }
+    .company .users>p {
+        font-size: 13px;
+    }
+    .company .users .user-img{
+        margin-top: 10px;
+    }
+    .company .users .user-img img{
+        width: 60px;
+        height: 60px;
+        margin: 0 8px 0 0;
+    }
+    .company .users .user-img h4{
+        font-size:11px;
+    }
+    .company .back{
+        padding: 19px 16px;
+    }
+    .company .back h5{
+        font-size: 17px;
+    }
+    .company .back h3{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .company .users .user-img p{
+        font-size: 9px;
+    }
+    .company .users .user-img h4{
+        margin-top: 4px;
+    }
+    /* ====== COMPANY END ======= */
+}
+@media screen and (max-width: 400px){
+    header .check-button {
+        align-items: flex-start;
+        margin-bottom: 70px;
+    }
+    header .mobil-menu .line::before{
+        width: 55%;
+    }
+    .opportunity .mobil-calls {
+        width: 88%;
+        margin: 0 -85px;
+    }
+}
+@media screen and (max-width: 373px){
+
+     /* ====== HEADER START ======= */
+    header .menu .login,
+    header .menu .login button,
+    header .menu .login button:nth-child(2){
+        width: 100%;
+    }
+     /* ====== HEADER END ======= */
+
+    /* ====== SECURITY START ======= */
+    .security .owl-carousel.owl-drag .owl-item{
+        padding: 0px 23px;
+    }
+    /* ====== SECURITY END ======= */
+
+    /* ====== OPPORTUNITY START ======= */
+    .opportunity .mobil-calls {
+        width: 84%;
+        margin: 0 -74px;
+    }
+    /* ====== OPPORTUNITY END ======= */
+
+    /* ====== PACKETS START ======= */
+    .packets .item .responsive-display h6{
+        font-size: 12px;
+    }
+    .packets .item .responsive-display .mobil-flex-between {
+        margin-left: 6px;
+    }
+    /* ====== PACKETS END ======= */
+
+    /* ====== COMPANY START ======= */
+    .company .owl-carousel.owl-drag .owl-item{
+        padding: 0px 24px;
+    }
+    .company .back {
+        padding: 14px 9px;
+    }
+    .company .back h5{
+        margin: 0;
+    }
+    .company .back form{
+        width: 100%
+    }
+    .company .back input{
+        width: 100%;
+    }
+
+    /* ====== COMPANY END ======= */
+
+    /* ====== FOOTER START ======= */
+    footer p{
+        font-size: 13px;
+    }
+    /* ====== FOOTER END ======= */
+}
