@@ -1,4 +1,4 @@
-name: Semgrep Scan
+name: Semgrep Scan and Upload to DefectDojo
 
 on: [push, pull_request]
 
@@ -19,8 +19,17 @@ jobs:
       - name: Run Semgrep
         run: semgrep --config=auto --json --output=semgrep-results.json
 
-      - name: Upload Semgrep Results
-        uses: actions/upload-artifact@v4
-        with:
-          name: semgrep-results
-          path: semgrep-results.json
+      - name: Upload Semgrep Results to DefectDojo
+        env:
+          DD_API_KEY: ${{ secrets.DEFECTDOJO_API_KEY }}
+          DD_HOST: ${{ secrets.DEFECTDOJO_HOST }}
+          DD_ENGAGEMENT_ID: ${{ secrets.DEFECTDOJO_ENGAGEMENT_ID }}
+        run: |
+          curl -X POST "$DD_HOST/api/v2/import-scan/" \
+            -H "Authorization: Token $DD_API_KEY" \
+            -F "scan_type=Semgrep JSON Report" \
+            -F "file=@semgrep-results.json" \
+            -F "engagement=$DD_ENGAGEMENT_ID" \
+            -F "minimum_severity=Low" \
+            -F "active=true" \
+            -F "verified=true"
